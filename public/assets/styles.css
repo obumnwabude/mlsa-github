@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Segoe Pro";
+  src: url(SegoePro-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Segoe Pro";
+  src: url(SegoePro-Bold.ttf);
+  font-weight: bold;
+}
+
+:root {
+  --blue: #0078d4;
+  --grey: #898d91;
+  --grey-text: #424242;
+  --black: #000;
+  --white: #fff;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Segoe Pro", sans-serif;
+  background-color: var(--white);
+  color: var(--grey-text);
+  font-size: 1rem;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+  padding: 24px;
+  max-width: 512px;
+}
+
+.header__logo {
+  padding-bottom: 16px;
+}
+
+.header__logo-link {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 512px;
+}
+
+.header__logo-link:hover {
+  text-decoration: none;
+  box-shadow: 0px 0px 4px var(--grey);
+  border-radius: 8px;
+}
+
+.header__logo-image {
+  width: 90%;
+}
+
+.header__flyer-image {
+  width: 90%;
+  max-width: 288px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 511.98px) {
+  .header__flyer-image {
+    margin-top: calc(((100vw - 48px) / 5.4) + 32px);
+  }
+}
+
+@media (min-width: 512px) and (max-width: 768px) {
+  .header__flyer-image {
+    margin-top: 128px;
+  }
+}
+
+.header__heading-text {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: var(--black);
+}
+
+.header__message,
+.attendees__intro-message {
+  margin-bottom: 16px;
+}
+
+.header__link {
+  color: var(--grey-text);
+  text-decoration-color: var(--grey-text);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header__mlsa-link {
+  text-decoration-style: double;
+}
+
+.header__mlsa-link:hover,
+.header__event-link:hover {
+  color: var(--blue);
+  text-decoration-color: var(--blue);
+}
+
+.header__event-date,
+.header__event-link {
+  color: var(--black);
+  font-size: 1.25rem;
+}
+
+.header__sub-heading-text,
+.attendees__intro-heading {
+  font-size: 1.75rem;
+  text-align: left;
+  margin-bottom: 16px;
+  color: var(--black);
+}
+
+.attendees {
+  max-width: 384px;
+}
+
+.attendee {
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0px 0px 3px var(--grey);
+  margin-bottom: 24px;
+}
+
+.attendee__name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.attendee__mlsa {
+  color: var(--grey);
+  margin-bottom: 12px;
+}
+
+.attendee__external-link {
+  text-decoration: none;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.attendee__external-link:hover {
+  background-color: var(--blue);
+}
+
+.attendee__external-link-image {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  padding: 0px 24px 24px;
+  max-width: 512px;
+}
+
+@media (max-width: 767.98px) {
+  header,
+  main,
+  .attendees {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__logo {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 16px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px var(--grey);
+  }
+
+  .attendees__intro-shadow {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  .attendees__intro {
+    position: fixed;
+    top: 0;
+  }
+
+  header {
+    width: 40%;
+  }
+
+  main {
+    padding-top: 0.1px;
+  }
+
+  .attendees__intro {
+    background-color: var(--white);
+    padding-top: 12px;
+    padding-left: 16px;
+    width: 100%;
+    max-width: 478px;
+  }
+
+  .attendees__intro-shadow {
+    position: fixed;
+    height: 1px;
+    width: 100%;
+    max-width: 478px;
+    box-shadow: 0px 1px 4px var(--grey);
+    top: 100px;
+  }
+
+  .attendees {
+    padding: 16px;
+    overflow: auto;
+    margin-left: 32px;
+    margin-top: 108px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  main {
+    margin-left: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-left: 512px;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    border-left: 5px solid var(--blue);
+    border-right: 5px solid var(--blue);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 0px solid var(--blue);
+    box-shadow: -5px 0px solid var(--blue);
+  }
+}
