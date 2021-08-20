@@ -1,7 +1,7 @@
-[": "Your Name",
- 
+[ 
   {
-    "name   "website": "https://example.com",
+    "name": "Your Name",
+    "website": "https://example.com",
     "linkedin": "https://linkedin.com/xx/xxx",
     "facebook": "https://facebook.com/xxx",
     "twitter": "Your Twitter Username",
@@ -9,7 +9,8 @@
     "instagram": "Your Instagram Username"
   },
   {
-    "name   "website": "https://cletus.otomartmusicacademy.com.ng",
+    "name": "Cletus Kingdom",
+    "website": "https://cletus.otomartmusicacademy.com.ng",
     "linkedin": "https://linkedin.com/cletuskingdom",
     "facebook": "https://facebook.com/cletuskingdom",
     "twitter": "cletuskingdom",
