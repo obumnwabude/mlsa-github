@@ -1,4 +1,4 @@
-[
+[ 
   {
     "name": "Your Name",
     "website": "https://example.com",
@@ -16,5 +16,14 @@
     "twitter": "obumnwabude",
     "github": "obumnwabude",
     "instagram": "obumnwabude"
+  },
+  {
+    "name": "Cletus Kingdom",
+    "website": "https://cletus.otomartmusicacademy.com.ng",
+    "linkedin": "https://linkedin.com/cletuskingdom",
+    "facebook": "https://facebook.com/cletuskingdom",
+    "twitter": "cletuskingdom",
+    "github": "cletuskingdom",
+    "instagram": "cletuskingdom"
   }
 ]
