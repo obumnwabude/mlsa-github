@@ -14,7 +14,7 @@ Re-open this page on a new tab, so that you can refer to the instructions here a
 
 2. Click on the `New Issue` button.
 
-3. In both the Title and "Leave a comment" fields, enter "Add <YOUR-NAME> to the attendee website" without quotes and with your real name.
+3. In both the Title and "Leave a comment" fields, enter "Add YOUR-NAME to the attendee website" without quotes and with your real name.
 
 4. Click on `Submit new issue`. Take note of your issue number (it will be close to the title) of the issue you just created.
 
